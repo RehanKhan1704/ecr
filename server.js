@@ -9,7 +9,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // MySQL connection
 const connection = mysql.createConnection({
-  host: '',
+  host: 'database-1.cwseb8kv6vms.us-east-1.rds.amazonaws.com',
   user: 'admin1234',
   password: 'admin1234',
   database: 'database-1'
